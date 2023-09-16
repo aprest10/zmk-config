@@ -1,0 +1,5 @@
+config SHIELD_PRESTO_LEFT
+    def_bool $(shields_list_contains,presto_left)
+
+config SHIELD_PRESTO_RIGHT
+    def_bool $(shields_list_contains,presto_right)

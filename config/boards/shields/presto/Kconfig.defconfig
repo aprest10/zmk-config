@@ -1,0 +1,24 @@
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default y
+
+
+
+if SHIELD_MY_BOARD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Presto"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
