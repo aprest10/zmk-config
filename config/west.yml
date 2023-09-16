@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: andrewpreston
+    - name: aprest10
       url-base: https://github.com/aprest10
   projects:
     - name: zmk
-      remote: andrewpreston
+      remote: aprest10
       revision: main
       import: config/west.yml
   self:
