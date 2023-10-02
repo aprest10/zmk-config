@@ -17,3 +17,5 @@ include:
     shield: presto_left
   - board: nice_nano_v2
     shield: presto_right
+  - board: nice_nano_v2
+    shield: settings_reset
